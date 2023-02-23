@@ -161,4 +161,5 @@ Future<void> openUrl(String url,
     {bool forceWebView = false, bool enableJavaScript = false}) async {
   await launch(url,
       forceWebView: forceWebView, enableJavaScript: enableJavaScript);
+  //
 }
